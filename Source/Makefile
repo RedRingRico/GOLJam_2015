@@ -56,7 +56,7 @@ endif
 
 CPP = g++
 
-CPPFLAGS_EXT	=	-ffriend-injection -std=c++11
+CPPFLAGS_EXT	=	-ffriend-injection -std=c++14
 
 CPPFLAGS	=	-c -DGOLJ_BUILD_$(BUILD_DEF) \
 				-DGOLJ_PLATFORM_$(BUILD_PLATFORM) \
@@ -69,7 +69,7 @@ SYSIPATH	=
 INCPATH		=
 SYSLPATH	=	
 LIBPATH		=
-SYSLIBS		= -lX11 -lXrandr -lXi -lrt -pthread -lGL
+SYSLIBS		= -lX11 -lXrandr -lXi -lrt -pthread -lGL -lSDL2 -lGLEW
 LINKFLAGS	=
 
 ##### Debug #######

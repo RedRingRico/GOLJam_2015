@@ -9,8 +9,8 @@ CLOC_CXX=`head -2 cloc_lines.txt | tail -1 | cut -d, -f5`
 CLOC_HXX=`head -3 cloc_lines.txt | tail -1 | cut -d, -f5`
 CLOC_TOTAL=$((${CLOC_CXX}+${CLOC_HXX}))
 
-#rm -rf cloc.txt
-#rm -rf cloc_lines.txt
+rm -rf cloc.txt
+rm -rf cloc_lines.txt
 
 printf "#ifndef __%s_CLOC_HPP__\n" $PROJECT > $CLOCHEADER
 printf "#define __%s_CLOC_HPP__\n\n" $PROJECT >> $CLOCHEADER

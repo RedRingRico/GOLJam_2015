@@ -1,4 +1,0 @@
-files,language,blank,comment,code,"http://cloc.sourceforge.net v 1.60  T=0.04 s (68.1 files/s, 7811.6 lines/s)"
-1,vim script,0,1,311
-1,C/C++ Header,3,0,14
-1,C++,3,0,12
